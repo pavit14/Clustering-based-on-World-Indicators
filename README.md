@@ -17,15 +17,15 @@ Performed data cleaning and normalization to ensure accurate clustering results.
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 ## Methodologies
-* Data Preprocessing:
+### Data Preprocessing:
 - Imported the World Bank Indicators dataset and performed necessary data cleaning and transformation using pandas and numpy.
 - Normalized the data to bring all indicators to a similar scale, ensuring each indicator contributes equally to the clustering process.
-* Determining Optimal Clusters:
+### Determining Optimal Clusters:
 - Utilized the Elbow Method, Silhouette Score, and Calinski-Harabasz Index to determine the ideal number of clusters for the K-means algorithm.
-* Clustering:
+### Clustering:
 - Applied the K-means clustering algorithm to group countries based on their socio-economic indicators.
 - Explored Hierarchical Clustering as an alternative method for comparison.
-* Visualization:
+### Visualization:
 - Visualized the clustering results using scatter plots, where each data point represents a country with socio-economic indicators.
 
 ## Results
