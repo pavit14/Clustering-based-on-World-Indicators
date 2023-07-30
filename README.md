@@ -7,18 +7,26 @@ Understanding the socio-economic development of countries is crucial for making 
 
 
 ## Features
-* Imported a real-life World indicator of countries in the United States dataset and prepared it for analysis by cleaning data
-working with Python numpy, pandas library and normalized data
-* Observed number of clusters by employing Elbow Method, Silhouette Score and Calinski-Harabasz Index, clustered
-countries based on K-Means and Hierarchical Clustering methods and visualized it via scatterplot
+* Imported a real-life World Bank Indicators dataset for countries and prepared it for analysis using Python's numpy and pandas libraries.
+Performed data cleaning and normalization to ensure accurate clustering results.
+* Employed the Elbow Method, Silhouette Score, and Calinski-Harabasz Index to determine the optimal number of clusters for the K-means algorithm.
+* Conducted clustering using both K-means and Hierarchical Clustering methods.
+* Visualized the clustering results through scatter plots, allowing for easy identification of clusters with similar socio-economic indicators.
 
 ## Libraries
-* pandas
-* sklearn
-* numpy
-* matplotlib
-* Scikit-learn
-* seaborn
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+
+## Methodologies
+* Data Preprocessing:
+- Imported the World Bank Indicators dataset and performed necessary data cleaning and transformation using pandas and numpy.
+- Normalized the data to bring all indicators to a similar scale, ensuring each indicator contributes equally to the clustering process.
+* Determining Optimal Clusters:
+- Utilized the Elbow Method, Silhouette Score, and Calinski-Harabasz Index to determine the ideal number of clusters for the K-means algorithm.
+* Clustering:
+- Applied the K-means clustering algorithm to group countries based on their socio-economic indicators.
+- Explored Hierarchical Clustering as an alternative method for comparison.
+* Visualization:
+- Visualized the clustering results using scatter plots, where each data point represents a country with socio-economic indicators.
 
 ## Results
-The clustering results can provide insights into the socio-economic development of different countries. The scatter plot can be used to identify clusters of countries that have similar socio-economic indicators. The results can be used to support decision-making in fields such as international development and global economics
+The clustering results offer valuable insights into the socio-economic development of different countries. The scatter plot visually demonstrates how countries are grouped into clusters based on similar socio-economic indicators. This information can be leveraged for decision-making in fields such as international development and global economics.
