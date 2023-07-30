@@ -1,6 +1,9 @@
 # Clustering-based-on-World-Indicators
-This project aims to cluster countries based on their socio-economic indicators using K-means clustering algorithm. The project uses the data from the World Bank Indicators dataset to perform clustering. The dataset contains a variety of socio-economic indicators for countries around the world.
-<a href='https://databank.worldbank.org/source/world-development-indicators'> Dataset </a>
+This project aims to cluster countries based on their socio-economic indicators using the K-means clustering algorithm. The analysis is performed on a real-life World Bank Indicators dataset, which contains a variety of socio-economic indicators for countries around the world.
+
+Understanding the socio-economic development of countries is crucial for making informed decisions in fields such as international development and global economics. This project aims to provide valuable insights into country clustering based on their socio-economic indicators using data-driven methods.
+
+### <a href='https://databank.worldbank.org/source/world-development-indicators'> Dataset </a>
 
 
 ## Features
